@@ -389,31 +389,47 @@ const faqs = [
     question: 'How often are new templates added?',
     answer: 'We regularly add new templates based on user requests and latest publication trends. Professional and Enterprise subscribers get immediate access to all new templates.',
   },
+  {
+    id: 5,
+    question: 'How can I contact customer support?',
+    answer: 'You can reach our support team at keronelau@gmail.com. We typically respond within 24 hours on business days. For urgent matters, you can also use our live chat support available during business hours.',
+  },
+  {
+    id: 6,
+    question: 'What is your refund policy?',
+    answer: `We offer a 30-day money-back guarantee on all template purchases. If you are not satisfied with your purchase, please contact our support team for a full refund.`,
+  },
+  {
+    id: 7,
+    question: 'Can I cancel my subscription?',
+    answer: 'Yes, you can cancel your subscription at any time. Your access will continue until the end of your current billing period. No refunds are provided for partial subscription periods.',
+  },
 ]
 
 const footerNavigation = {
   solutions: [
-    { name: 'Bar Graphs', href: '#' },
-    { name: 'Scatter Plots', href: '#' },
-    { name: 'Line Charts', href: '#' },
-    { name: 'Statistical Plots', href: '#' },
+    { name: 'Bar Graphs', href: '/templates/bar-graphs' },
+    { name: 'Scatter Plots', href: '/templates/scatter-plots' },
+    { name: 'Line Charts', href: '/templates/line-charts' },
+    { name: 'Statistical Plots', href: '/templates/statistical-plots' },
   ],
   support: [
-    { name: 'Documentation', href: '#' },
-    { name: 'Tutorials', href: '#' },
-    { name: 'FAQs', href: '#' },
-    { name: 'Contact', href: '#' },
+    { name: 'Documentation', href: '/docs' },
+    { name: 'Tutorials', href: '/tutorials' },
+    { name: 'FAQs', href: '/faq' },
+    { name: 'Contact', href: '/contact' },
   ],
   company: [
-    { name: 'About', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Partners', href: '#' },
-    { name: 'Careers', href: '#' },
+    { name: 'About', href: '/about' },
+    { name: 'Blog', href: '/blog' },
+    { name: 'Partners', href: '/partners' },
+    { name: 'Careers', href: '/careers' },
   ],
   legal: [
-    { name: 'Privacy', href: '#' },
-    { name: 'Terms', href: '#' },
-    { name: 'License', href: '#' },
+    { name: 'Terms', href: '/terms' },
+    { name: 'Privacy', href: '/privacy' },
+    { name: 'License', href: '/license' },
+    { name: 'Refund Policy', href: '/refund-policy' },
   ],
 }
 </script> 
